@@ -11,4 +11,4 @@ these command should run if want to run the services because It's important to n
 
 
 
-to convert the plain text into the base 64 = echo -n "admin" | base64   these will return the base 64 code and that we have pass in the kubernetes configuration.
+to convert the plain text into the base 64 = echo -n "admin" | base64   these will return the base 64 code and that we have pass in the kubernetes configuration. Then kubernetes will again change it from base64 the plain text during the run time.
