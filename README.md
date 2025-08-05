@@ -11,3 +11,5 @@ minikube service grade-submission-portal -n grade-submission
 2. to convert the plain text into the base 64 = echo -n "admin" | base64   these will return the base 64 code and that we have pass in the kubernetes configuration. Then kubernetes will again change it from base64 the plain text during the run time.
 
 3. these is a file uploaded which consist of command in powershell used to install the metrics api to check the metrics data from the metric server.
+
+4.  Uploaded another file that has the command to install the nginx ingress controller.
