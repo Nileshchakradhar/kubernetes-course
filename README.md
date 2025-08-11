@@ -13,3 +13,13 @@ minikube service grade-submission-portal -n grade-submission
 3. these is a file uploaded which consist of command in powershell used to install the metrics api to check the metrics data from the metric server.
 
 4.  Uploaded another file that has the command to install the nginx ingress controller.
+
+
+
+The steps to create helm package from the templates
+1. helm package .
+2. helm install (chart_name) (Package_name)
+Now if we got any error while installing the package then uninstall the current package by using the below command
+3. helm uninstall (chart_name)
+   Now create the new package with our new step by using the command no. 1 and then install the chart by using the command no. 2
+   
